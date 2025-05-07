@@ -35,7 +35,7 @@ const Main = () => {
       <div className="fixed bottom-6 right-6 z-[999]">
         <button
           onClick={() => setIsChatBotOpen(!isChatBorOpen)}
-          className="bg-sky-500 text-white p-4 rounded-full shadow-lg hover:bg-orange-600 transition-all"
+          className="bg-sky-500 text-white p-4 rounded-full shadow-lg hover:bg-orange-600 transition-all animate-pulse" 
           aria-label="ChatBot"
         >
           <FaRobot className="text-xl" />
