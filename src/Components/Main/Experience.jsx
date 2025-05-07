@@ -25,7 +25,7 @@ const experiences = [
     img: FullStack,
     title: 'Python Full Stack Developer',
     company: 'TechFnatic Information Technology & Services',
-    duration: 'May 2023 - Present',
+    duration: 'May 2023 - Sep 2024',
     location: 'Bangalore',
     responsibilities: [
       'Developed and maintained responsive web apps using Python, Django, React.js, Tailwind CSS, and Bootstrap for improved user experience.',
