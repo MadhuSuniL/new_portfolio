@@ -18,14 +18,14 @@ const Header = () => {
           <ReactTyped
             strings={[`
             <h4 class='text-7xl text-white font-thin mb-10'>Hi, I am</h4>
-            <h1 class='text-6xl font-bold mb-10'>Madhu Bagamma Gari.</h1>
-            <h1 class='text-2xl font-thin mb-10'>Full Stack Python & Generative AI Developer</h1>
+            <h1 class='text-6xl font-bold mb-10'>Madhu Bagamma Gari</h1>
             `]}
             typeSpeed={10}
             showCursor={false}
             onBegin={() => setIsTyping(true)}
             onComplete={() => setIsTyping(false)}
           />
+          <h1 className='text-2xl font-thin mb-10'>Full Stack Python & Generative AI Developer</h1>
           {
             !isTyping &&
             <>
