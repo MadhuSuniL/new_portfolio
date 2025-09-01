@@ -8,47 +8,44 @@ import { ReactTyped } from "react-typed";
 const experiences = [
   {
     img: AIEngineer,
-    title: 'End-to-End Python & AI Engineer',
-    company: 'DTSkill',
-    duration: 'September 2024 - Present',
-    location: 'Remote',
+    title: "Full Stack Python & Generative AI Developer",
+    company: "DTSkill",
+    duration: "Sep 2024 - Present",
+    location: "Remote",
     responsibilities: [
-      'Architected and developed scalable end-to-end solutions integrating Python, Django, React.js, and AI models.',
-      'Designed and deployed deep learning and machine learning pipelines for real-world apps.',
-      'Built RESTful APIs and real-time WebSocket services with Django Rest Framework and Django Channels.',
-      'Created and deployed Generative AI applications including AI agents, ChatGPT-like conversational backends, and custom GPTs.',
-      'Collaborated with cross-functional teams to optimize performance, enhance usability, and streamline DevOps workflows.',
-      'Integrated data analytics and AI-driven features into full-stack applications to improve user experience and decision-making.'
-    ]
+      "Developed and integrated Generative AI applications including agentic AI workflows, LLM assistants, and custom GPTs using LangChain and LangGraph.",
+      "Built scalable REST APIs and backend systems with Django and Django REST Framework.",
+      "Collaborated with frontend teams to deliver seamless full-stack applications using React.js.",
+      "Mentored junior developers and contributed innovative ideas to enhance project workflows."
+    ],
   },
   {
     img: FullStack,
-    title: 'Python Full Stack Developer',
-    company: 'TechFnatic Information Technology & Services',
-    duration: 'May 2023 - Sep 2024',
-    location: 'Bangalore',
+    title: "Python Full Stack Developer",
+    company: "TechFnatic Information Technology & Services",
+    duration: "May 2023 - Sep 2024",
+    location: "Bangalore, India",
     responsibilities: [
-      'Developed and maintained responsive web apps using Python, Django, React.js, Tailwind CSS, and Bootstrap for improved user experience.',
-      'Collaborated on cross-functional teams to design and implement databases, API endpoints, and UIs with Django Rest Framework and Django Channels.',
-      'Optimized website performance via code reviews, debugging, and software development best practices.',
-      'Integrated machine learning and deep learning models to enhance web app functionality.'
-    ]
+      "Created backend REST APIs with Django and Django REST Framework.",
+      "Contributed to frontend development with React.js and Next.js, ensuring responsive UI/UX.",
+      "Worked across full-stack tasks bridging backend logic and frontend features.",
+      "Improved performance and collaborated closely with teams for project delivery."
+    ],
   },
   {
     img: BackendDev,
-    title: 'Backend Developer',
-    company: 'Simmi Foundation Organization',
-    duration: 'October 2022 - January 2023',
-    location: 'Remote',
+    title: "Django Developer",
+    company: "Simmi Foundation Organization",
+    duration: "Oct 2022 - Jan 2023",
+    location: "Remote",
     responsibilities: [
-      'Developed and maintained web apps with Django and Django Rest Framework, enhancing user experience and functionality.',
-      'Collaborated with cross-functional teams to design and implement database schemas and API endpoints for multiple projects.',
-      'Integrated Razorpay for seamless payment processing within web apps.',
-      'Automated certificate generation for donations to enhance user satisfaction and operational efficiency.',
-      'Optimized website performance through code reviews, debugging, and software development best practices.'
-    ]
-  }
+      "Developed backend services and domain-specific APIs using Django and Django REST Framework.",
+      "Designed scalable user management systems and authentication flows.",
+      "Provided efficient backend support for organizational projects with GitHub-based version control."
+    ],
+  },
 ];
+
 
 const Experience = () => {
   const { ref, inView } = useInView({
@@ -100,3 +97,4 @@ const Experience = () => {
 };
 
 export default Experience;
+
