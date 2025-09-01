@@ -8,35 +8,36 @@ import { useInView } from 'react-intersection-observer';
 const services = [
     {
         title: 'Backend Development',
-        description: 'Build scalable backend systems using Python, Django, and DRF with WebSocket (Django Channels) support.',
+        description: 'Develop and optimize scalable backend systems using Python, Django, and DRF. Implement WebSocket support with Django Channels for real-time communication and data handling.',
         icon: <FaServer size={30} />,
     },
     {
         title: 'Frontend Integration',
-        description: 'Create seamless frontend experiences using React, Next.js, Tailwind CSS, and Bootstrap.',
+        description: 'Build responsive and user-friendly interfaces with React, Next.js, Tailwind CSS, and Bootstrap for seamless client-side experiences.',
         icon: <FaCode size={35} />,
     },
     {
         title: 'Custom AI Solutions',
-        description: 'Design and deploy custom AI models including NLP, deep learning, and machine learning pipelines.',
+        description: 'Design, train, and deploy tailored AI models including NLP, computer vision, and machine learning pipelines to solve complex business challenges.',
         icon: <GiArtificialIntelligence />,
     },
     {
         title: 'Generative AI Applications',
-        description: 'Build AI Agents, Custom GPTs, and ChatGPT-like interfaces tailored to business needs.',
+        description: 'Create advanced generative AI systems such as AI Agents, Custom GPTs, and ChatGPT-like conversational platforms adapted to business needs.',
         icon: <FaRobot />,
     },
     {
         title: 'REST API Development',
-        description: 'Craft robust and secure APIs using Django REST Framework with token-based authentication.',
+        description: 'Develop secure and efficient RESTful APIs with Django REST Framework, including authentication mechanisms like JWT and token-based systems.',
         icon: <TbApi size={40} />,
     },
     {
         title: 'AI-Powered Applications',
-        description: 'Integrate AI models into real-world apps like recommendation systems, chat interfaces, or document summarizers.',
+        description: 'Integrate AI models into production-ready applications such as recommendation systems, intelligent chatbots, fraud detection systems, and document summarizers.',
         icon: <FaBrain />,
     }
 ];
+
 
 const Services = () => {
     const { ref, inView } = useInView({
@@ -84,3 +85,4 @@ const Services = () => {
 };
 
 export default Services;
+
