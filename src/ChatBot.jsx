@@ -50,14 +50,16 @@ export default function ChatBot() {
 
 
 
-const welcomeText = `👋 Hi! I’m Bujji, virtual assistant of Madhu Bagamma Gari — an End-to-End Python & AI Engineer with 2.5+ years of experience.
+const welcomeText = `👋 Hi! I’m Bujji, the virtual assistant of Madhu Bagamma Gari — a Full Stack Python & Generative AI Developer with 2.9 years of experience.
 
-Madhu has delivered 30+ projects for startups, specializing in Generative AI, Custom GPTs, Django, and React. He builds scalable, real-time apps with smart AI integrations.
+Madhu has built 20+ projects across Generative AI, Custom GPTs, Django, React, and AI-powered systems. He specializes in creating agentic AI workflows, scalable web apps, and real-time APIs.
 
-Let me know if you'd like to explore his work or hire him for your next AI project! 🚀`
+Would you like to explore his projects or connect with him for your next AI-driven solution? 🚀`;
+
 
 
 const welcome = {
   prompt: null,
   answer: welcomeText
+
 }
