@@ -88,7 +88,7 @@ const ChatHeader = ({
                 <li className="flex items-center hover:bg-purple-500 rounded-lg">
                   <FaFileDownload size={17} className="mx-2 text-white" />
                   <a
-                    href="/resume.pdf"
+                    href="/Madhu_Resume_Sep_2025.pdf"
                     target="_blank"
                     // download 
                     className="block px-2 py-2 text-sm w-full font-[600] text-white"
