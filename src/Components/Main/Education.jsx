@@ -4,27 +4,27 @@ import { ReactTyped } from 'react-typed';
 import { useInView } from 'react-intersection-observer';
 
 const educationData = [
-    {
-        title: 'B.Sc Computer Science',
-        institution: 'Rayalaseema University, Velgode',
-        board: 'Rayalaseema University',
-        location: 'Nandyal District, Andhra Pradesh',
-        icon: <FaUniversity />,
-    },
-    {
-        title: 'Intermediate - MPC Group',
-        institution: 'Intermediate Board, Velgode',
-        board: 'Andhra Pradesh State Board',
-        location: 'Nandyal District, Andhra Pradesh',
-        icon: <FaGraduationCap />,
-    },
-    {
-        title: 'Secondary School (10th Grade)',
-        institution: 'ZPHS School, Velgode',
-        board: 'Andhra Pradesh State Board',
-        location: 'Nandyal District, Andhra Pradesh',
-        icon: <FaSchool />,
-    },
+  {
+    title: "B.Sc in Computer Science",
+    institution: "Rayalaseema University, Velgode",
+    board: "Rayalaseema University",
+    location: "Nandyal District, Andhra Pradesh",
+    icon: <FaUniversity />,
+  },
+  {
+    title: "Intermediate - MPC Group",
+    institution: "Junior College, Velgode",
+    board: "Andhra Pradesh State Board",
+    location: "Nandyal District, Andhra Pradesh",
+    icon: <FaGraduationCap />,
+  },
+  {
+    title: "Secondary School (10th Grade)",
+    institution: "ZPHS School, Velgode",
+    board: "Andhra Pradesh State Board",
+    location: "Nandyal District, Andhra Pradesh",
+    icon: <FaSchool />,
+  },
 ];
 
 const Education = () => {
@@ -71,3 +71,4 @@ const Education = () => {
 };
 
 export default Education;
+
