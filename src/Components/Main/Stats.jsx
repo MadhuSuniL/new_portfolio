@@ -18,7 +18,7 @@ const formatNumber = (number) => {
 const Stats = () => {
     const [hours, setHours] = useState(0);
     const [cups, setCups] = useState(0);
-    const projects = 30;
+    const projects = 40;
 
     const { ref, inView } = useInView({
         triggerOnce: true, // Only trigger once
@@ -99,3 +99,4 @@ const Stats = () => {
 };
 
 export default Stats;
+
