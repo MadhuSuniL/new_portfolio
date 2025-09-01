@@ -31,27 +31,12 @@ const projects = [
     priority: 1
   },
   {
-    title: "Persona Builder with Prompt Templates",
-    img: Images.PERSONA_BUILDER,
-    company: "DTSkill",
-    category: "generative_ai",
-    priority: 1
-  },
-  {
     title: "Resume Parser",
     img: Images.RESUME_PARSER,
     company: "Personal Project",
     category: "generative_ai",
     priority: 1
   },
-  {
-    title: "Visual Search Engine",
-    img: Images.VISUAL_SEARCH,
-    company: "Personal Project",
-    category: "deep_learning",
-    priority: 1
-  },
-
   // Tier 2 – Applied AI/ML
   {
     title: "Credit Card Fraud Detection",
@@ -65,27 +50,6 @@ const projects = [
     img: Images.DYNAMIC_PRICING,
     company: "Personal Project",
     category: "machine_learning",
-    priority: 2
-  },
-  {
-    title: "Chatbot with Seq2Seq Model",
-    img: Images.SEQ2SEQ_CHATBOT,
-    company: "Personal Project",
-    category: "deep_learning",
-    priority: 2
-  },
-  {
-    title: "Text to Image Generation",
-    img: Images.TEXT_TO_IMAGE,
-    company: "Personal Project",
-    category: "deep_learning",
-    priority: 2
-  },
-  {
-    title: "Speech Emotion Recognition",
-    img: Images.SPEECH_EMOTION,
-    company: "Personal Project",
-    category: "deep_learning",
     priority: 2
   },
   {
@@ -232,5 +196,6 @@ const getCategoryColor = (category) => {
       return 'bg-gradient-to-r from-gray-400 via-gray-500 to-gray-600';
   }
 };
+
 
 
