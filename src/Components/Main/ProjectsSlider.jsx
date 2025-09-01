@@ -8,95 +8,115 @@ import 'swiper/swiper-bundle.css';
 import Images from '../../assets/projects/Images';
 
 const projects = [
+  // Tier 1 – Flagship
   {
     title: "AI Agents with LLMs",
     img: Images.AI_AGENTS,
     company: "DTSkill",
-    category: "generative_ai"
+    category: "generative_ai",
+    priority: 1
   },
   {
     title: "GPT Suite Like ChatGPT",
     img: Images.GPT_SUITE,
     company: "DTSkill",
-    category: "generative_ai"
+    category: "generative_ai",
+    priority: 1
   },
   {
     title: "CustomGPTs",
     img: Images.CUSTOM_GPT,
     company: "DTSkill",
-    category: "generative_ai"
+    category: "generative_ai",
+    priority: 1
   },
   {
     title: "Persona Builder with Prompt Templates",
     img: Images.PERSONA_BUILDER,
     company: "DTSkill",
-    category: "generative_ai"
-  },
-  {
-    title: "Project Management Software",
-    img: Images.PMS,
-    company: "TechFnatic",
-    category: "fullstack"
-  },
-  {
-    title: "Customer/Lead Management Software",
-    img: Images.CRM,
-    company: "TechFnatic",
-    category: "fullstack"
-  },
-  {
-    title: "User Management System & Controller",
-    img: Images.USER_MANAGEMENT,
-    company: "DTSkill",
-    category: "backend"
-  },
-  {
-    title: "Credit Card Fraud Detection",
-    img: Images.CC_FRAUD,
-    company: "Personal Project",
-    category: "machine_learning"
-  },
-  {
-    title: "Dynamic Pricing for Ride Sharing",
-    img: Images.DYNAMIC_PRICING,
-    company: "Personal Project",
-    category: "machine_learning"
+    category: "generative_ai",
+    priority: 1
   },
   {
     title: "Resume Parser",
     img: Images.RESUME_PARSER,
     company: "Personal Project",
-    category: "generative_ai"
-  },
-  {
-    title: "Face Mask Detection",
-    img: Images.FACE_MASK,
-    company: "Personal Project",
-    category: "deep_learning"
+    category: "generative_ai",
+    priority: 1
   },
   {
     title: "Visual Search Engine",
     img: Images.VISUAL_SEARCH,
     company: "Personal Project",
-    category: "deep_learning"
+    category: "deep_learning",
+    priority: 1
+  },
+
+  // Tier 2 – Applied AI/ML
+  {
+    title: "Credit Card Fraud Detection",
+    img: Images.CC_FRAUD,
+    company: "Personal Project",
+    category: "machine_learning",
+    priority: 2
+  },
+  {
+    title: "Dynamic Pricing for Ride Sharing",
+    img: Images.DYNAMIC_PRICING,
+    company: "Personal Project",
+    category: "machine_learning",
+    priority: 2
   },
   {
     title: "Chatbot with Seq2Seq Model",
     img: Images.SEQ2SEQ_CHATBOT,
     company: "Personal Project",
-    category: "deep_learning"
+    category: "deep_learning",
+    priority: 2
   },
   {
     title: "Text to Image Generation",
     img: Images.TEXT_TO_IMAGE,
     company: "Personal Project",
-    category: "deep_learning"
+    category: "deep_learning",
+    priority: 2
   },
   {
     title: "Speech Emotion Recognition",
     img: Images.SPEECH_EMOTION,
     company: "Personal Project",
-    category: "deep_learning"
+    category: "deep_learning",
+    priority: 2
+  },
+  {
+    title: "Face Mask Detection",
+    img: Images.FACE_MASK,
+    company: "Personal Project",
+    category: "deep_learning",
+    priority: 2
+  },
+
+  // Tier 3 – Full-Stack/Backend
+  {
+    title: "Project Management Software",
+    img: Images.PMS,
+    company: "TechFnatic",
+    category: "fullstack",
+    priority: 3
+  },
+  {
+    title: "Customer/Lead Management Software",
+    img: Images.CRM,
+    company: "TechFnatic",
+    category: "fullstack",
+    priority: 3
+  },
+  {
+    title: "User Management System & Controller",
+    img: Images.USER_MANAGEMENT,
+    company: "DTSkill",
+    category: "backend",
+    priority: 3
   }
 ];
 
@@ -212,4 +232,5 @@ const getCategoryColor = (category) => {
       return 'bg-gradient-to-r from-gray-400 via-gray-500 to-gray-600';
   }
 };
+
 
