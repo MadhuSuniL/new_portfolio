@@ -7,7 +7,7 @@ import USER_MANAGEMENT from './user_management.jpg';
 import CC_FRAUD from './credit_card.jpg';
 import DYNAMIC_PRICING from './center_price.jpg';
 import RESUME_PARSER from './resume_parser.jpg';
-import FACE_MASK from './musk_detection.jpg';
+import FACE_MASK from './face musk.png';
 
 const Images = {
     AI_AGENTS,
@@ -23,3 +23,4 @@ const Images = {
 };
 
 export default Images;
+
