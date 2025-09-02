@@ -33,7 +33,7 @@ const projects = [
   {
     title: "Resume Parser",
     img: Images.RESUME_PARSER,
-    company: "Personal Project",
+    company: "DTSkill",
     category: "generative_ai",
     priority: 1
   },
@@ -55,7 +55,7 @@ const projects = [
   {
     title: "Face Mask Detection",
     img: Images.FACE_MASK,
-    company: "Personal Project",
+    company: "DTSkill",
     category: "deep_learning",
     priority: 2
   },
@@ -196,6 +196,7 @@ const getCategoryColor = (category) => {
       return 'bg-gradient-to-r from-gray-400 via-gray-500 to-gray-600';
   }
 };
+
 
 
 
